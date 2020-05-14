@@ -21,5 +21,5 @@ def run_client():
     json.dumps(data).encode('utf-8')
 
     # post data to server
-    requests.post('http://192.168.1.69:8080/', data=data)
+    requests.post('http://192.168.1.69:8080/tovar', data=data)
     print(response.text)

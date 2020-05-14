@@ -15,10 +15,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="New iterpreter">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/work.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="''">
+      <change beforePath="$PROJECT_DIR$/network/src/RequestHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/RequestHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589453600712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="''">
+      <created>1589465762106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589465762106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +287,8 @@
     <MESSAGE value="Create __main__" />
     <MESSAGE value="Remove CmdParams" />
     <MESSAGE value="New iterpreter" />
-    <option name="LAST_COMMIT_MESSAGE" value="New iterpreter" />
+    <MESSAGE value="''" />
+    <option name="LAST_COMMIT_MESSAGE" value="''" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#__main__" timestamp="1589364581121">
