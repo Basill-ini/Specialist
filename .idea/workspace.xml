@@ -16,7 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="Remove CmdParams">
-      <change beforePath="$PROJECT_DIR$/network/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -183,12 +183,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.server" />
       <item itemvalue="Python.__main__" />
       <item itemvalue="Python.trace" />
       <item itemvalue="Python.src" />
       <item itemvalue="Python.NakPos" />
       <item itemvalue="Python.Nakladnaya" />
-      <item itemvalue="Python.server" />
     </list>
     <recent_temporary>
       <list>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589451754295</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove CmdParams">
+      <created>1589452496146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589452496146</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,22 +292,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588775423499" />
-    <state width="629" height="172" key="GridCell.Tab.0.bottom" timestamp="1589450897037">
+    <state width="802" height="172" key="GridCell.Tab.0.bottom" timestamp="1589452564529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="629" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
-    <state width="629" height="172" key="GridCell.Tab.0.center" timestamp="1589450897037">
+    <state width="802" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
+    <state width="802" height="172" key="GridCell.Tab.0.center" timestamp="1589452564529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="629" height="172" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
-    <state width="629" height="172" key="GridCell.Tab.0.left" timestamp="1589450897037">
+    <state width="802" height="172" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
+    <state width="802" height="172" key="GridCell.Tab.0.left" timestamp="1589452564529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="629" height="172" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
-    <state width="629" height="172" key="GridCell.Tab.0.right" timestamp="1589450897037">
+    <state width="802" height="172" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
+    <state width="802" height="172" key="GridCell.Tab.0.right" timestamp="1589452564529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="629" height="172" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
+    <state width="802" height="172" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
     <state width="1259" height="55" key="GridCell.Tab.1.bottom" timestamp="1588865736106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -317,10 +324,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="55" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588865736106" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1588835897173">
+    <state x="68" y="0" width="914" height="680" key="SettingsEditor" timestamp="1589453426906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588835897173" />
+    <state x="68" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589453426906" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589376610983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
