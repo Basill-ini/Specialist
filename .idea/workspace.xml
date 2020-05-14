@@ -15,8 +15,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="Create __main__">
+    <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="Remove CmdParams">
+      <change afterPath="$PROJECT_DIR$/network/src/RequestHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/src/CmdParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/params/src/CmdParams.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\aplication\params\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.__main__">
     <configuration name="NakPos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -93,28 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docs/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/params/src/__main__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +115,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profiling/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/src/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docs/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\dev\aplication\network\src\server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,18 +189,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.__main__" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.trace" />
       <item itemvalue="Python.src" />
       <item itemvalue="Python.NakPos" />
       <item itemvalue="Python.Nakladnaya" />
+      <item itemvalue="Python.server" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.NakPos" />
         <item itemvalue="Python.Nakladnaya" />
         <item itemvalue="Python.src" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.trace" />
       </list>
     </recent_temporary>
@@ -220,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589376458598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove CmdParams">
+      <created>1589376663031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589376663031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +247,12 @@
           <value>
             <State>
               <option name="BEK_SORT_TYPE" value="1" />
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="15" />
+                  <entry key="3" value="134" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -240,17 +263,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new class CmdParams for parsing command line parametrs" />
     <MESSAGE value="Create __main__" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create __main__" />
+    <MESSAGE value="Remove CmdParams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove CmdParams" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#__main__" timestamp="1589364581121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="351" y="0" key="#__main__/0.0.1280.680@0.0.1280.680" timestamp="1589364581121" />
-    <state x="30" y="1" width="1089" height="644" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589355119907">
+    <state x="181" y="21" width="1089" height="644" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589450725469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="30" y="1" width="1089" height="644" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1589355119907" />
+    <state x="181" y="21" width="1089" height="644" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1589450725469" />
     <state x="385" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589354825684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -259,22 +283,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588775423499" />
-    <state width="1259" height="229" key="GridCell.Tab.0.bottom" timestamp="1589355176737">
+    <state width="629" height="172" key="GridCell.Tab.0.bottom" timestamp="1589450897037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="229" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589355176737" />
-    <state width="1259" height="229" key="GridCell.Tab.0.center" timestamp="1589355176737">
+    <state width="629" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
+    <state width="629" height="172" key="GridCell.Tab.0.center" timestamp="1589450897037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="229" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589355176737" />
-    <state width="1259" height="229" key="GridCell.Tab.0.left" timestamp="1589355176736">
+    <state width="629" height="172" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
+    <state width="629" height="172" key="GridCell.Tab.0.left" timestamp="1589450897037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="229" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589355176736" />
-    <state width="1259" height="229" key="GridCell.Tab.0.right" timestamp="1589355176737">
+    <state width="629" height="172" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
+    <state width="629" height="172" key="GridCell.Tab.0.right" timestamp="1589450897037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="229" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589355176737" />
+    <state width="629" height="172" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589450897037" />
     <state width="1259" height="55" key="GridCell.Tab.1.bottom" timestamp="1588865736106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -295,10 +319,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588835897173" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589376385242">
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589376610983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1589376385242" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1589376610983" />
     <state x="301" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1588835457993">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

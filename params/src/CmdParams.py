@@ -11,7 +11,6 @@ class CmdParams(object):
     def __init__(self):
         self.__args = self.__get_parser().parse_args()
 
-
     def __get_parser(self):
         parser = argparse.ArgumentParser(description='Here may be your description...')
         parser.add_argument('wpcode', type=str, help='Code of workplace')
