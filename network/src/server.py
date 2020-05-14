@@ -2,13 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import threading
-from http.server import HTTPServer
-from RequestHandler import RequestHandler
+from HttpServer import HttpServer
 
 
 def run_server():
     server_address = ('', 8080)
-    server = HTTPServer(server_address, RequestHandler)
+    server = HttpServer(server_address, 20)
     # stream service object
     thread = threading.Thread(group=None, target=server.serve_forever)
     thread.start()
