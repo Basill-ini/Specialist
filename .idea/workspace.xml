@@ -15,8 +15,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="Remove CmdParams">
+    <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="New iterpreter">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/work.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trace" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trace" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,20 +186,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.server" />
       <item itemvalue="Python.__main__" />
       <item itemvalue="Python.trace" />
+      <item itemvalue="Python.server" />
       <item itemvalue="Python.src" />
       <item itemvalue="Python.NakPos" />
       <item itemvalue="Python.Nakladnaya" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.NakPos" />
         <item itemvalue="Python.Nakladnaya" />
         <item itemvalue="Python.src" />
-        <item itemvalue="Python.trace" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589452496146</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New iterpreter">
+      <created>1589453600712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589453600712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +281,8 @@
     <MESSAGE value="Create new class CmdParams for parsing command line parametrs" />
     <MESSAGE value="Create __main__" />
     <MESSAGE value="Remove CmdParams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove CmdParams" />
+    <MESSAGE value="New iterpreter" />
+    <option name="LAST_COMMIT_MESSAGE" value="New iterpreter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#__main__" timestamp="1589364581121">
@@ -288,26 +297,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="385" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1589354825684" />
-    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1588775423499">
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1589463093825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588775423499" />
-    <state width="802" height="172" key="GridCell.Tab.0.bottom" timestamp="1589452564529">
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589463093825" />
+    <state width="801" height="247" key="GridCell.Tab.0.bottom" timestamp="1589463495075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="802" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
-    <state width="802" height="172" key="GridCell.Tab.0.center" timestamp="1589452564529">
+    <state width="801" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589463495075" />
+    <state width="801" height="247" key="GridCell.Tab.0.center" timestamp="1589463495074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="802" height="172" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
-    <state width="802" height="172" key="GridCell.Tab.0.left" timestamp="1589452564529">
+    <state width="801" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589463495074" />
+    <state width="801" height="247" key="GridCell.Tab.0.left" timestamp="1589463495074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="802" height="172" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
-    <state width="802" height="172" key="GridCell.Tab.0.right" timestamp="1589452564529">
+    <state width="801" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589463495074" />
+    <state width="801" height="247" key="GridCell.Tab.0.right" timestamp="1589463495075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="802" height="172" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589452564529" />
+    <state width="801" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589463495075" />
     <state width="1259" height="55" key="GridCell.Tab.1.bottom" timestamp="1588865736106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -324,18 +333,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="55" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588865736106" />
-    <state x="68" y="0" width="914" height="680" key="SettingsEditor" timestamp="1589453426906">
+    <state x="246" y="0" width="914" height="680" key="SettingsEditor" timestamp="1589463271713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="68" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589453426906" />
+    <state x="246" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589463271713" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589376610983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1589376610983" />
-    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1588835457993">
+    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1589454843419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588835457993" />
+    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589454843419" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
