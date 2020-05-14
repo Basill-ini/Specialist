@@ -17,6 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="''">
       <change beforePath="$PROJECT_DIR$/network/src/RequestHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/RequestHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589468141399</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="''">
+      <created>1589468505562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589468505562</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

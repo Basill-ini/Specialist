@@ -7,9 +7,9 @@ from client import run_client
 
 
 parser = argparse.ArgumentParser(description='Networking')
-parser.add_argument('--server', dest='mode', action='store_const', const='run_server',
+parser.add_argument('--server', dest='mode', action='store_const', const=run_server,
                     default=None, help='Run as server')
-parser.add_argument('--client', dest='mode', action='store_const', const='run_client',
+parser.add_argument('--client', dest='mode', action='store_const', const=run_client,
                     default=None, help='Run as client')
 
 ARGS = parser.parse_args()

@@ -28,6 +28,8 @@ class RequestHandler(BaseHTTPRequestHandler):
             data = json.loads(data)
             self.server.queue.put(data, block=True, timeout=5)
 
+            print(self.server.queue.qsize())
+
             self.send_response(200)
             self.send_header('Content-type', 'text/plain; charset=utf-8')
             # send response headers
