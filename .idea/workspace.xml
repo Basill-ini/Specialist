@@ -16,12 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="Remove CmdParams">
-      <change afterPath="$PROJECT_DIR$/network/src/RequestHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params/src/CmdParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/params/src/CmdParams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,10 +192,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.NakPos" />
         <item itemvalue="Python.Nakladnaya" />
         <item itemvalue="Python.src" />
-        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.trace" />
       </list>
     </recent_temporary>
@@ -237,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589376663031</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove CmdParams">
+      <created>1589451754295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589451754295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
