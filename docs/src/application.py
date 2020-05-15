@@ -10,7 +10,7 @@ from CmdParams import CmdParams
 class Application(CmdParams):
 
     def __init__(self):
-        self.delivery_address = None
+        super().__init__()
         self.__current_document = None
         self.__no_doc = {
             '1': ('Create nakladnaya', self.create_nakl),
