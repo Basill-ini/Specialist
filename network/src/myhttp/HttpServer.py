@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from http.server import HTTPServer
-from RequestHandler import RequestHandler
+from .RequestHandler import RequestHandler
 from queue import Queue
 import threading
 
