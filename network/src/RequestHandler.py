@@ -37,7 +37,7 @@ class RequestHandler(BaseHTTPRequestHandler):
 
             try:
                 elem = self.server.queue.get(block=True, timeout=5)
-                name = elem['name']
+                name = elem['title']
                 price = elem['price']
                 answer = f'''
                     <html>
