@@ -16,12 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="''">
-      <change beforePath="$PROJECT_DIR$/docs/src/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/docs/Document.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/docs/Document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/docs/Invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/docs/Invoice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/docs/NakPos.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/docs/NakPos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/docs/Nakladnaya.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/docs/Nakladnaya.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/docs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/docs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/HttpServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/HttpServer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,12 +190,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.__main__" />
-      <item itemvalue="Python.trace" />
-      <item itemvalue="Python.server" />
-      <item itemvalue="Python.src" />
       <item itemvalue="Python.NakPos" />
       <item itemvalue="Python.Nakladnaya" />
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.src" />
+      <item itemvalue="Python.trace" />
     </list>
     <recent_temporary>
       <list>
@@ -374,7 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589541398309</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="''">
+      <created>1589541976996</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1589541976996</updated>
+    </task>
+    <task id="LOCAL-00024" summary="''">
+      <created>1589541994896</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1589541994896</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,22 +433,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589463093825" />
-    <state width="1259" height="208" key="GridCell.Tab.0.bottom" timestamp="1589540904871">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom" timestamp="1589548384439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589540904871" />
-    <state width="1259" height="208" key="GridCell.Tab.0.center" timestamp="1589540904871">
+    <state width="1259" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589548384439" />
+    <state width="1259" height="2" key="GridCell.Tab.0.center" timestamp="1589548384439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589540904871" />
-    <state width="1259" height="208" key="GridCell.Tab.0.left" timestamp="1589540904871">
+    <state width="1259" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589548384439" />
+    <state width="1259" height="2" key="GridCell.Tab.0.left" timestamp="1589548384439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589540904871" />
-    <state width="1259" height="208" key="GridCell.Tab.0.right" timestamp="1589540904871">
+    <state width="1259" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589548384439" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right" timestamp="1589548384439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589540904871" />
+    <state width="1259" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589548384439" />
     <state width="1259" height="55" key="GridCell.Tab.1.bottom" timestamp="1588865736106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
