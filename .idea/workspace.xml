@@ -184,12 +184,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.NakPos" />
-      <item itemvalue="Python.Nakladnaya" />
       <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.trace" />
       <item itemvalue="Python.server" />
       <item itemvalue="Python.src" />
-      <item itemvalue="Python.trace" />
+      <item itemvalue="Python.NakPos" />
+      <item itemvalue="Python.Nakladnaya" />
     </list>
     <recent_temporary>
       <list>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589469048413</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="''">
+      <created>1589533584718</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589533584718</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,18 +381,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="55" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588865736106" />
-    <state x="246" y="0" width="914" height="680" key="SettingsEditor" timestamp="1589463271713">
+    <state x="246" y="0" width="914" height="680" key="SettingsEditor" timestamp="1589533549768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="246" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589463271713" />
+    <state x="246" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589533549768" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589468475064">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1589468475064" />
-    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1589454843419">
+    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1589534628639">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589454843419" />
+    <state x="301" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589534628639" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

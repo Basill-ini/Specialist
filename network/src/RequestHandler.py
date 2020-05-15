@@ -12,13 +12,55 @@ class RequestHandler(BaseHTTPRequestHandler):
 
     # create a request handler method
     def do_GET(self):
-        self.send_response(200)
-        self.send_header('Content-type',
-                         'text/plain; charset=utf-8')
-        # send response headers
-        self.end_headers()
-        answer = 'Работает'.encode('utf-8')
-        self.wfile.write(answer)
+        if self.path == '/count':
+            # send the number of items in the queue
+            N = self.server.queue.qsize()
+            self.send_response(200)
+            self.send_header('Content-type',
+                             'text/html; charset=utf-8')
+            self.end_headers()
+            answer = f'''
+                <html>
+                    <body>
+                        <p> In queue {N} elements </p> 
+                    </body>
+                </html>
+            '''.encode('utf-8')
+            self.wfile.write(answer)
+
+        elif self.path == '/first':
+            # send the first item in the queue
+            self.send_response(200)
+            self.send_header('Content-type',
+                             'text/html; charset=utf-8')
+            self.end_headers()
+
+            try:
+                elem = self.server.queue.get(block=True, timeout=5)
+                name = elem['name']
+                price = elem['price']
+                answer = f'''
+                    <html>
+                        <body>
+                            <table border="1">
+                                <tr><td>Name</td><td>{name}</td></tr>
+                                <tr><td>Price</td><td>{price}</td></tr>
+                            </table>
+                        </body>
+                    </html>
+                '''.encode('utf-8')
+            except queue.Empty:
+                answer = f'''
+                <html>
+                    <body>
+                        <p> Queue is empty </p> 
+                    </body>
+                </html>
+            '''.encode('utf-8')
+                print('Queue is empty')
+            self.wfile.write(answer)
+        else:
+            self.send_error(404, 'Path not found')
 
     def do_POST(self):
 
@@ -28,7 +70,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             data = data.decode('utf-8')
             data = json.loads(data)
             self.server.queue.put(data, block=True, timeout=5)
-            print(self.server.queue.qsize())
 
             self.send_response(200)
             self.send_header('Content-type', 'text/plain; charset=utf-8')
