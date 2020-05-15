@@ -10,7 +10,8 @@ from BaseConfig import BaseConfig
 class Application(CmdParams, BaseConfig):
 
     def __init__(self):
-        super().__init__()
+        CmdParams.__init__(self)
+        BaseConfig.__init__(self, self.config_path)
         self.__current_document = None
         self.__no_doc = {
             '1': ('Create nakladnaya', self.create_nakl),

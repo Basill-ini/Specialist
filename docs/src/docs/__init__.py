@@ -1,5 +1,5 @@
 #!/usr/bin/env python 3
-# -*- confing: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from .Document import Document
 from .Nakladnaya import Nakladnaya
