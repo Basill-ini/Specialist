@@ -18,8 +18,8 @@ def run_client():
         'title': title,
         'price': price
     }
-    json.dumps(data).encode('utf-8')
+    data = json.dumps(data).encode('utf-8')
 
     # post data to server
-    requests.post('http://192.168.1.69:8080/tovar', data=data)
+    response = requests.post('http://192.168.1.69:8080/tovar', data=data)
     print(response.text)
