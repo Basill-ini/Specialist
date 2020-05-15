@@ -5,7 +5,7 @@ import docs
 from decimal import Decimal
 import pickle
 from CmdParams import CmdParams
-
+from BaseConfig import BaseConfig
 
 class Application(CmdParams):
 
