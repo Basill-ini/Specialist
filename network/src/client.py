@@ -6,8 +6,8 @@ import json
 
 
 def run_client():
-    title = input('Наименование: ').strip()
-    price = input('Цена: ').strip()
+    title = input('Title: ').strip()
+    price = input('Price: ').strip()
     if price == '':
         price = 0
     else:

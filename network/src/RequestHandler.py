@@ -36,7 +36,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             self.end_headers()
 
             try:
-                elem = self.server.queue.get(block=True, timeout=5)
+                elem = self.server.queue.get(block=True, timeout=3)
                 name = elem['title']
                 price = elem['price']
                 answer = f'''
@@ -57,7 +57,6 @@ class RequestHandler(BaseHTTPRequestHandler):
                     </body>
                 </html>
             '''.encode('utf-8')
-                print('Queue is empty')
             self.wfile.write(answer)
         else:
             self.send_error(404, 'Path not found')
@@ -75,7 +74,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             self.send_header('Content-type', 'text/plain; charset=utf-8')
             # send response headers
             self.end_headers()
-            answer = 'Все хорошо'.encode('utf-8')
+            answer = 'Message accepted'.encode('utf-8')
             self.wfile.write(answer)
 
         except queue.Full:

@@ -16,8 +16,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="''">
+      <change afterPath="$PROJECT_DIR$/docs/src/CmdParams.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/example.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/BaseConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/RequestHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/RequestHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/src/CmdParams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/src/__main__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +57,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/src" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\aplication\docs\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\aplication\params\src" />
     </key>
@@ -308,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589538116895</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="''">
+      <created>1589538546715</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589538546715</updated>
+    </task>
+    <task id="LOCAL-00016" summary="''">
+      <created>1589538748771</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589538748771</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

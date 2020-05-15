@@ -15,7 +15,7 @@ def run_server():
     # stop server
     server.shutdown()
     while thread.is_alive():
-        thread.join(5.0)
+        thread.join(3.0)
         if thread.is_alive():
             x = input('Server is running, do you want wait? [Y/N]: ')
             if x == 'N' or x == 'n':

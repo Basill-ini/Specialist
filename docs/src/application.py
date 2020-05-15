@@ -4,9 +4,10 @@
 import docs
 from decimal import Decimal
 import pickle
+from CmdParams import CmdParams
 
 
-class Application(object):
+class Application(CmdParams):
 
     def __init__(self):
         self.delivery_address = None
