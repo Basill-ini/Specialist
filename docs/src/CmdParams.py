@@ -51,4 +51,4 @@ class CmdParams(object):
     def config_path(self):
         if self.__args.conf_path is not None:
             return self.__args.conf_path.absolut()
-        return Path.cwd() / 'config.conf'
+        return Path.cwd() / 'docs.conf'
