@@ -6,6 +6,7 @@ from decimal import Decimal
 import pickle
 from CmdParams import CmdParams
 from BaseConfig import BaseConfig
+from myhttp import HttpServer
 
 class Application(CmdParams, BaseConfig):
 
@@ -106,5 +107,13 @@ class Application(CmdParams, BaseConfig):
             self.__current_document = pickle.load(src, fix_imports=False)
 
     def run(self):
-        for action in self.user_actions_sequnce():
-            action()
+        wp_addr, wp_port = self.workplace(self.wp_name)
+        svr_address = ('', wp_port)
+        server, thread = HttpServer.srv_start(svr_address, 20)
+        try:
+            for action in self.user_actions_sequnce():
+                action()
+        finally:
+            server.shutdown()
+            thread.join(5.0)
+
