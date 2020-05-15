@@ -1,5 +1,5 @@
 #!/usr/bin/env python 3
-# -*- confing: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import docs
 from decimal import Decimal
@@ -7,7 +7,7 @@ import pickle
 from CmdParams import CmdParams
 from BaseConfig import BaseConfig
 
-class Application(CmdParams):
+class Application(CmdParams, BaseConfig):
 
     def __init__(self):
         super().__init__()
