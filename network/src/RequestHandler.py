@@ -13,7 +13,8 @@ class RequestHandler(BaseHTTPRequestHandler):
     # create a request handler method
     def do_GET(self):
         self.send_response(200)
-        self.send_header('Content-type', 'text/plain; charset=utf-8')
+        self.send_header('Content-type',
+                         'text/plain; charset=utf-8')
         # send response headers
         self.end_headers()
         answer = 'Работает'.encode('utf-8')
@@ -27,7 +28,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             data = data.decode('utf-8')
             data = json.loads(data)
             self.server.queue.put(data, block=True, timeout=5)
-
             print(self.server.queue.qsize())
 
             self.send_response(200)

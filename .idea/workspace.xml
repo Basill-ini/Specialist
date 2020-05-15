@@ -16,8 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de21409e-38f2-4f7b-812e-9073cda785cd" name="Default Changelist" comment="''">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/RequestHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/RequestHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,12 +184,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.__main__" />
-      <item itemvalue="Python.trace" />
-      <item itemvalue="Python.server" />
-      <item itemvalue="Python.src" />
       <item itemvalue="Python.NakPos" />
       <item itemvalue="Python.Nakladnaya" />
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.src" />
+      <item itemvalue="Python.trace" />
     </list>
     <recent_temporary>
       <list>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589468505562</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="''">
+      <created>1589469048413</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589469048413</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,22 +342,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589463093825" />
-    <state width="801" height="208" key="GridCell.Tab.0.bottom" timestamp="1589466424411">
+    <state width="1259" height="208" key="GridCell.Tab.0.bottom" timestamp="1589469680608">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589466424411" />
-    <state width="801" height="208" key="GridCell.Tab.0.center" timestamp="1589466424411">
+    <state width="1259" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589469680608" />
+    <state width="1259" height="208" key="GridCell.Tab.0.center" timestamp="1589469680608">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589466424411" />
-    <state width="801" height="208" key="GridCell.Tab.0.left" timestamp="1589466424411">
+    <state width="1259" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589469680608" />
+    <state width="1259" height="208" key="GridCell.Tab.0.left" timestamp="1589469680608">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589466424411" />
-    <state width="801" height="208" key="GridCell.Tab.0.right" timestamp="1589466424411">
+    <state width="1259" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589469680608" />
+    <state width="1259" height="208" key="GridCell.Tab.0.right" timestamp="1589469680608">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589466424411" />
+    <state width="1259" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589469680608" />
     <state width="1259" height="55" key="GridCell.Tab.1.bottom" timestamp="1588865736106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
